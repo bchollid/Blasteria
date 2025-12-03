@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4553058640563815375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700525980393815646}
+  - component: {fileID: 5938744753974854490}
+  - component: {fileID: 1282687789166410090}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700525980393815646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4553058640563815375}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5938744753974854490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4553058640563815375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1550f3ff4cbb84483423132964edea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  _amountOfGermsToPool: 300
+  _amountOfLasersToPool: 300
+  _amountOfHitsToPool: 300
+  _amountOfLightningsToPool: 300
+  _amountOfHealsToPool: 200
+  _germSpeedLow: 0.3
+  _germSpeedHigh: 0.5
+  _germDuplicationLow: 15
+  _germDuplicationHigh: 12
+  _germHealth: 5
+  _starterGermHealth: 25
+  _starterSpeed: 0.1
+  _starterDuplication: 5
+  _bigGermSpeed: 0.1
+  _bigGermHealth: 50
+  _bigGermDuplication: 20
+  _bigGermHealSpeed: 3
+  _bigGermHealPower: 10
+  _tutorialStarterGerms: 0
+  _bossGermHealth: 250
+  _bossGermDuplication: 5
+  numberOfStarterGerms: 2
+  numberOfBigGerms: 0
+  numberOfBossGerms: 0
+  _startGermSpawnVariation: {x: 4, y: 0, z: 4}
+  germ1: {fileID: 8443844638407272458, guid: 4298653042443314cb05b36b949a16c2, type: 3}
+  starterGerm: {fileID: 7576048453540967490, guid: f9d5044b86f2d1c45a3579f46b851e6f, type: 3}
+  bigGerm: {fileID: 3151106982244534741, guid: 3af21ec3ad665a74f810770f86d9d657, type: 3}
+  laser1: {fileID: 2257798467062577884, guid: 6813cbe4d9913d9438db8183f91845c6, type: 3}
+  hitFX: {fileID: 4236687292527603077, guid: 500763e5850c97f44997ee850aa71a0e, type: 3}
+  _player: {fileID: 0}
+  _audio: {fileID: 1282687789166410090}
+  _hitSFX: {fileID: 8300000, guid: fd8558cebf58352468268eb708dd7853, type: 3}
+  _lightning: {fileID: 1096218909729018882, guid: a7e28f6a08c671448ae128f9d65d3afa, type: 3}
+  _healing: {fileID: 4500887098012344376, guid: 3f966468d01ed6a4abcdffe66599bb94, type: 3}
+  bossGerm: {fileID: 1152548664435108347, guid: d2541dedf708b1c4c8a3f5850e266e96, type: 3}
+--- !u!82 &1282687789166410090
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4553058640563815375}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -1706876459275634025, guid: 7467c25ef9222184aba3655a0bec374e, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

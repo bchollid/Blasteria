@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 83aba91ce829240d1a191fd26b412a77
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Clover
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201596
+  packageName: Pixel Fonts - Latin Accents Pack
+  packageVersion: 3.0
+  assetPath: Assets/Pixel Fonts - Latin Accents Pack/Clover/Clover.ttf
+  uploadId: 600107

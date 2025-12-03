@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: c73477e39fcd54b49bba86d70295dd9a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 10
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Pixelite
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201596
+  packageName: Pixel Fonts - Latin Accents Pack
+  packageVersion: 3.0
+  assetPath: Assets/Pixel Fonts - Latin Accents Pack/Pixelite/Pixelite.ttf
+  uploadId: 600107

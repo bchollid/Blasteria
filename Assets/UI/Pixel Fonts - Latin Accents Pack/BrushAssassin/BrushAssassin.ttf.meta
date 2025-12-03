@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 7deddbdd0737d4bd487fa535954a864e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - BrushAssassin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201596
+  packageName: Pixel Fonts - Latin Accents Pack
+  packageVersion: 3.0
+  assetPath: Assets/Pixel Fonts - Latin Accents Pack/BrushAssassin/BrushAssassin.ttf
+  uploadId: 600107
