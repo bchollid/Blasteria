@@ -280,7 +280,7 @@ public class Player : MonoBehaviour
     {
         if(isBoosting)
         {
-            if (playerActions.Default.MoveCounterClockwise.ReadValue<float>() > 0.0f || playerActions.Default.MoveCounterClockwise.ReadValue<float>() > 0.0f)
+            if (playerActions.Default.MoveCounterClockwise.ReadValue<float>() > 0.0f || playerActions.Default.MoveClockwise.ReadValue<float>() > 0.0f)
             {
                 _currentSpeed = _boostSpeed;
                 _totalBoost -= _boostDrainRate * Time.deltaTime;
