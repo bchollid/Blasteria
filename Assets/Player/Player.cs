@@ -181,7 +181,7 @@ public class Player : MonoBehaviour
                     Laser myLaser = newLaser.GetComponent<Laser>();
                     if(_chargeShotActivated)
                     {
-                        if(_timeBetweenShot >= 2.0f)
+                        if(_timeBetweenShot >= 1.9f)
                         {
                             myLaser.damage = _damage * (_timeBetweenShot * _damageMultiplier);
                             myLaser.AdjustCharge(_timeBetweenShot);

@@ -443,6 +443,10 @@ public class GameManager : MonoBehaviour
             _scoreCount = ObjectPool.instance.numberOfStarterGerms + ObjectPool.instance.numberOfBigGerms;
             _scoreText.text = "Germs Remaining: " + _scoreCount.ToString();
         }
+        if(_currentWave == 21)
+        {
+            _menuManager.ToEndOfDemo();
+        }
         _gameReady = true;
         _gameFinished = false;
         _gameover.SetActive(false);

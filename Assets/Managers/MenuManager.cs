@@ -120,6 +120,12 @@ public class MenuManager : MonoBehaviour
         _audio.PlayOneShot(_clickSFX);
     }
 
+    public void ToEndOfDemo()
+    {
+        StartCoroutine(SceneTransition(5));
+        MusicManager.instance.SwitchToMenuMusic();
+    }
+
     public void QuitGame()
     {
         Application.Quit();

@@ -28,7 +28,7 @@ public class Laser : MonoBehaviour
 
     public void AdjustCharge(float chargeAmount)
     {
-        _rend.material.SetFloat("_Intensity", chargeAmount * 500);
+        _rend.material.SetFloat("_Intensity", chargeAmount * 35);
         _chargeAmount = chargeAmount;
     }
 
